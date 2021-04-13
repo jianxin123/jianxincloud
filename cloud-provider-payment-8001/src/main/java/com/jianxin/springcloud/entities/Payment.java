@@ -12,5 +12,6 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class Payment implements Serializable {
     private Long id;
-    private String serial;//订单序列号
+    //订单序列号
+    private String serial;
 }
